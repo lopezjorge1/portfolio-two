@@ -59,6 +59,7 @@ html,body {
 }
 
 #images {
+	background-color: rgb(0,0,0);
 	border-right: thick solid #000;
 }
 
