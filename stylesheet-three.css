@@ -38,6 +38,7 @@ html,body {
 .contact {
 	min-height: 20vw;
 	background-color: rgba(112,138,144,1);
+	overflow-y: hidden; 
 }
 
 #logo {
@@ -114,6 +115,7 @@ ul {
 
 nav ul {
 	right: 3vw;
+	font-size: 1.3vw;
 }
 
 ul li {
