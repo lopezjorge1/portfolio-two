@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Bree serif";
+	src: url("bree-serif/BreeSerif-Regular.otf");
+}
+
 html,body {
 	margin: 0;
 	padding: 0;
@@ -14,6 +19,11 @@ html,body {
 .about {
 	min-height: 40vw;
 	border-bottom: thick solid #f00;
+}
+
+.contact {
+	position: relative;
+	min-height: 20vw;
 }
 
 .about,
@@ -39,6 +49,69 @@ html,body {
 a {
 	width: 20%;
 	height: 20vw;
-	border-top: thick solid #ff0;
-	border-right: thick solid #f00;
+	border-right: thin solid #000;
+}
+
+img {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+}
+
+nav ul {
+	right: 3vw;
+}
+
+ul li {
+	font-family: "Bree serif";
+	display: inline-block;
+	margin: 1vw;
+}
+
+.contact ul {
+	bottom: 0;
+	right: 3vw;
+}
+
+#email-icon,
+#github-icon,
+#linkedin-icon {
+	border: thin solid #000;
+	border-radius: 50%;
+	height: 3vw;
+	width: 3vw;
+	text-align: center;
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+#email:link, 
+#email:visited,
+#github:link,
+#github:visited,
+#linkedin:link,
+#linkedin:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+#closing-statement,
+#copyright {
+	font-family: "Bree serif";
+	position: absolute;
+}
+
+#closing-statement {
+	left: 3vw;	
+}
+
+#copyright {
+	top: 3vw;
+	left: 10vw;
 }
