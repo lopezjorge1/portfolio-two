@@ -137,6 +137,7 @@ ul li {
 	width: 3vw;
 	text-align: center;
 	font-size: 2vw;
+	background-color: #000;
 }
 
 #email:link, 
@@ -146,7 +147,7 @@ ul li {
 #linkedin:link,
 #linkedin:visited {
   text-decoration: none;
-  color: #000;
+  color: rgba(112,138,144,1);
 }
 
 #closing-statement,
