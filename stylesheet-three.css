@@ -57,6 +57,7 @@ html,body {
 	width: 20%;
 	height: 20vw;
 	border-right: thin solid #000;
+	position: relative;
 }
 
 img {
@@ -64,6 +65,25 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.project-name {
+	font-family: "Bree serif";
+	white-space: nowrap;
+	height: 4vw;
+	width: 100%;
+	bottom: -4.1vw;
+	background-color: rgba(255,0,0,.8);
+	position: absolute;
+	left: 0;
+	color: #fff;
+	transition: all 300ms ease-out;
+	text-align: center;
+}
+
+#first-row a:hover .project-name,
+#second-row a:hover .project-name {
+	transform: translateY(-100%);
 }
 
 ul {
@@ -79,6 +99,7 @@ ul li {
 	font-family: "Bree serif";
 	display: inline-block;
 	margin: 1vw;
+	cursor: pointer;
 }
 
 .contact ul {
@@ -95,7 +116,6 @@ ul li {
 	width: 3vw;
 	text-align: center;
 	font-size: 2vw;
-	cursor: pointer;
 }
 
 #email:link, 
