@@ -11,6 +11,7 @@ html,body {
 }
 
 .hero {
+	position: relative;
 	background-color: #fff;
 }
 
@@ -24,6 +25,11 @@ html,body {
 .contact {
 	position: relative;
 	min-height: 20vw;
+}
+
+#logo {
+	height: 10vw;
+	width: 12vw;
 }
 
 .about,
@@ -46,7 +52,8 @@ html,body {
 	overflow: scroll;
 }
 
-a {
+#first-row a,
+#second-row a {
 	width: 20%;
 	height: 20vw;
 	border-right: thin solid #000;
@@ -108,10 +115,12 @@ ul li {
 }
 
 #closing-statement {
+	font-size: 2vw;
 	left: 3vw;	
 }
 
 #copyright {
+	font-size: 1.6vw;
 	top: 3vw;
 	left: 10vw;
 }
