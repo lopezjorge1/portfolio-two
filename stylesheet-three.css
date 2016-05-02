@@ -12,7 +12,11 @@ html,body {
 
 .hero {
 	position: relative;
-	background-color: #fff;
+	background-image: url("https://images.unsplash.com/photo-1439737567250-e9ea931e97a4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=6f360f09a234426c238233a742060faa");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
 }
 
 .hero,
@@ -49,6 +53,10 @@ html,body {
 }
 
 #about-info {
+	font-family: "Bree serif";
+	font-size: 1.5vw;
+	padding-right: 3vw;
+	padding-left: 3vw; 
 	overflow: scroll;
 }
 
