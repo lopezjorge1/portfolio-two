@@ -37,6 +37,7 @@ html,body {
 
 .contact {
 	min-height: 20vw;
+	background-color: rgba(112,138,144,1);
 }
 
 #logo {
