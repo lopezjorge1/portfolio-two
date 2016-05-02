@@ -17,7 +17,7 @@ html,body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
-	border-bottom: 1vw solid #f00;
+	border-bottom: .5vw solid #f00;
 }
 
 .hero,
