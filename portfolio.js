@@ -1,16 +1,20 @@
-/*
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
+$("#recent-work").click(function(e) {
+    e.preventDefault();
 
-      var target = this.hash,
-      $target = $(target);
-
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-          window.location.hash = target;
-      });
-  });
+    var n = $(".hero").height();
+    $('html, body').animate({ scrollTop: n }, 1000);
 });
-*/
+
+$("#about-me").click(function(e) {
+    e.preventDefault();
+
+    var n = $(".hero").height() + $(".work").height();
+    $('html, body').animate({ scrollTop: n }, 1000);
+});
+
+$("#contact-me").click(function(e) {
+    e.preventDefault();
+
+    var n = $(document).height();
+    $('html, body').animate({ scrollTop: n }, 1000);
+});

@@ -16,13 +16,13 @@ html,body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
+	border-bottom: thick solid #f00;
 }
 
 .hero,
 .work,
 .about {
 	min-height: 40vw;
-	border-bottom: thick solid #f00;
 }
 
 .hero,
@@ -58,7 +58,7 @@ html,body {
 }
 
 #images {
-	border-right: thick solid #f00;
+	border-right: thick solid #000;
 }
 
 #about-info {
