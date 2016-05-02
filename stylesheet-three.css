@@ -16,8 +16,9 @@ html,body {
 	border-bottom: thick solid #f00;
 }
 
-.work,
-.about {
+.about,
+#first-row,
+#second-row {
 	display: flex;
 }
 
@@ -33,4 +34,11 @@ html,body {
 
 #about-info {
 	overflow: scroll;
+}
+
+a {
+	width: 20%;
+	height: 20vw;
+	border-top: thick solid #ff0;
+	border-right: thick solid #f00;
 }
