@@ -1,0 +1,36 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hero {
+	background-color: #fff;
+}
+
+.hero,
+.work,
+.about {
+	min-height: 40vw;
+	border-bottom: thick solid #f00;
+}
+
+.work,
+.about {
+	display: flex;
+}
+
+#images,
+#about-info {
+	width: 50%;
+	height: 40vw;
+}
+
+#images {
+	border-right: thick solid #f00;
+}
+
+#about-info {
+	overflow: scroll;
+}
