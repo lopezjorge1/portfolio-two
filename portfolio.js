@@ -1,11 +1,16 @@
-$("#email-icon").click(function () {
-    window.location.href = "mailto:lopez.jorge1695@gmail.com";
-});
+/*
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
 
-$("#github-icon").click(function () {
-    window.location.href = "https://www.github.com/lopezjorge1";
-});
+      var target = this.hash,
+      $target = $(target);
 
-$("#linkedin-icon").click(function () {
-    window.location.href = "https://www.linkedin.com/in/jorgelopezjr";
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
 });
+*/
