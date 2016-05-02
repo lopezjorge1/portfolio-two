@@ -18,6 +18,7 @@ html,body {
 	background-attachment: fixed;
 	background-position: center center;
 	border-bottom: .5vw solid #f00;
+	background-color: rgba(112,138,144,1);
 }
 
 .hero,
@@ -39,7 +40,6 @@ html,body {
 .contact {
 	min-height: 20vw;
 	background-color: rgba(112,138,144,1);
-	overflow-y: hidden; 
 }
 
 #logo {
