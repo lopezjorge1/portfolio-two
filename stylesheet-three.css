@@ -1,4 +1,8 @@
 @media screen and (max-width: 667px) and (orientation: portrait) {
+	.hero {
+		height: 100% !important;
+	}
+
 	.about {
 		display: inline !important;
 	}
