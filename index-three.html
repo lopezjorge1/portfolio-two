@@ -22,6 +22,8 @@
 			</nav>
 
 			<img id="logo" src="logo.png">
+
+			<h1 id="opening-statement">Jorge Lopez Jr.</h1>
 		</section>
 
 		<section class="work">
@@ -149,5 +151,21 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" src="portfolio.js"></script>
 		<script type="text/javascript" src="http://gabinaureche.com/TheaterJS/theater.min.js"></script>
+		<script>
+			var theater = theaterJS()
+
+  	theater
+    	.addActor('opening-statement')
+
+  	theater
+    	.addScene('opening-statement: Designer?!', 500)
+    	.addScene(-10, "Developer?!",500)
+    	.addScene(-11, "Data Scientist?!",500)
+    	.addScene(-16, "Product Manager?!",500)
+    	.addScene(-17, "Learner!",500)
+    	.addScene(-8, "Ninja!",500)
+    	.addScene(-6, "Jorge Lopez Jr.",2000)
+    	.addScene(theater.replay)
+		</script>
 	</body>
 </html>
