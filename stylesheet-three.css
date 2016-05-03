@@ -1,4 +1,9 @@
 @font-face {
+	font-family: "Tulia";
+	src: url("tulia/Tulia_regular.otf");
+}
+
+@font-face {
 	font-family: "Bree serif";
 	src: url("bree-serif/BreeSerif-Regular.otf");
 }
@@ -45,6 +50,16 @@ html,body {
 #logo {
 	height: 10vw;
 	width: 12vw;
+}
+
+#opening-statement {
+	position: absolute;
+	font-family: "Tulia";
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 8vw;
+	white-space: nowrap;
 }
 
 .about,
@@ -135,13 +150,24 @@ ul li {
 #email-icon,
 #github-icon,
 #linkedin-icon {
-	border: thin solid #000;
-	border-radius: 50%;
+	border-radius: 15%;
 	height: 3vw;
 	width: 3vw;
 	text-align: center;
 	font-size: 2vw;
 	background-color: #000;
+}
+
+#email-icon:hover,
+#github-icon:hover,
+#linkedin-icon:hover{
+	background-color: rgba(112,138,144,1);
+}
+
+#email-icon:hover .fa-envelope,
+#github-icon:hover .fa-github,
+#linkedin-icon:hover .fa-linkedin{
+	color: #000;
 }
 
 #email:link, 
