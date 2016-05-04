@@ -54,11 +54,13 @@
 
 	#first-row a:hover .project-name,
 	#second-row a:hover .project-name {
-		transform: translateY(100%) !important;
+		transform: translateY(0) !important;
 	}
 
 	.project-name {
-		display: none !important;
+		height: 100% !important;
+		top: 0 !important;
+		background-color: rgba(255,0,0,.7) !important;
 	}
 
 	#closing-statement,
