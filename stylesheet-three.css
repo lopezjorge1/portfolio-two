@@ -60,7 +60,8 @@
 	.project-name {
 		height: 100% !important;
 		top: 0 !important;
-		background-color: rgba(255,0,0,.7) !important;
+		background-color: rgba(0,0,0,.7) !important;
+		color: #f00 !important;
 	}
 
 	#closing-statement,
