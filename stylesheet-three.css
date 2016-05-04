@@ -317,7 +317,7 @@ ul li {
 }
 
 #group-picture {
-	-webkit-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg) !important;
 	top: 2vw;
 	left: 4vw;
 }
