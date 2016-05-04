@@ -1,6 +1,8 @@
 @media screen and (max-width: 667px) and (orientation: portrait) {
 	.hero {
 		height: 100vh !important;
+		border-width: 1vw !important;
+
 	}
 
 	.about {
@@ -91,8 +93,6 @@
 	}
 
 	#group-picture {
-		/*Fix this shit*/
-		/*transform: rotate(-90deg) !important;*/
 		left: 5vw !important;
 	}
 
