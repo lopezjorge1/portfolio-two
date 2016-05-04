@@ -312,7 +312,7 @@ ul li {
 }
 
 #group-picture {
-	transform: rotate(90deg);
+	/*transform: rotate(90deg);*/
 	top: 2vw;
 	left: 4vw;
 }
