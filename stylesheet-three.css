@@ -1,5 +1,6 @@
 @media screen and (max-width: 667px) and (orientation: portrait) {
 	.hero {
+		background-image: url("small-bridge.jpg") !important;
 		height: 100vh !important;
 		border-width: 1vw !important;
 
