@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 1224px) {
 	.contact {
-		min-height: 30vw !important;
+		bottom: 0 !important;
 	}
 }
 
