@@ -97,7 +97,7 @@
 	}
 
 	#group-picture {
-		-webkit-transform: rotate(0) !important;
+		transform: rotate(0) !important;
 		left: 5vw !important;
 	}
 
