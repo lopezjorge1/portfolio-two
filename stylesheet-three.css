@@ -91,13 +91,12 @@
 	}
 
 	#group-picture {
-		top: 2vw;
+		transform: rotate(90deg) !important;
 		left: 5vw !important;
 	}
 
 	#self-portrait {
 		left: 55% !important;
-		top: 50%;
 	}
 }
 
