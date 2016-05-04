@@ -91,7 +91,8 @@
 	}
 
 	#group-picture {
-		transform: rotate(-90deg) !important;
+		/*Fix this shit*/
+		/*transform: rotate(-90deg) !important;*/
 		left: 5vw !important;
 	}
 
