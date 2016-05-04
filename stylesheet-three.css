@@ -11,6 +11,22 @@
 		height: 60vw !important;
 	}
 
+	#logo {
+		height: 30vw !important;
+		width: 32vw !important;
+	}
+
+	nav ul {
+		font-size: 3.3vw !important;
+	}
+
+	#opening-statement {
+		top: 30% !important;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 8vw;
+	}
+
 	#images,
 	#about-info {
 		width: 100% !important;
@@ -19,9 +35,7 @@
 
 	#about-info {
 		font-size: 4vw !important;
-		padding-right: 3vw !important;
-		padding-left: 3vw !important; 
-		word-wrap: break-word !important;
+		padding-left: 0 !important; 
 	}
 
 	#first-row,
@@ -44,6 +58,30 @@
 	.project-name {
 		display: none !important;
 	}
+
+	#closing-statement,
+	#copyright {
+		left: 50% !important;
+		transform: translate(-50%) !important;
+	}
+
+	#closing-statement {
+		font-size: 4vw !important;
+		white-space: nowrap !important;
+	}
+
+	#copyright {
+		font-size: 3.6vw !important;
+	}
+
+	#email-icon,
+	#github-icon,
+	#linkedin-icon {
+		height: 10vw !important;
+		width: 10vw !important;
+		font-size: 7vw !important;
+	}
+
 }
 
 @font-face {
